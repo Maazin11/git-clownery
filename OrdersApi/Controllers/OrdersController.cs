@@ -45,7 +45,7 @@ namespace OrdersApi.Controllers
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
             var order = await _orderService.GetOrderAsync(id);
-            if (order == null)
+            if (order is null)
             {
                 return NotFound();
             }
