@@ -57,7 +57,7 @@ namespace OrdersApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(int id, Order order)
         {
-            if (id != order.Id)
+            if (id == order.Id)
             {
                 return BadRequest();
             }
