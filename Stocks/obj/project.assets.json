@@ -3171,11 +3171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Stocks/Stocks.csproj",
+      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Stocks/Stocks.csproj",
       "projectName": "Stocks",
-      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Stocks/Stocks.csproj",
+      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Stocks/Stocks.csproj",
       "packagesPath": "/Users/martinnielsen/.nuget/packages/",
-      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Stocks/obj/",
+      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Stocks/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/martinnielsen/.nuget/NuGet/NuGet.Config"
@@ -3202,7 +3202,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -3235,15 +3235,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -3254,7 +3254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/martinnielsen/.dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

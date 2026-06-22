@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bdNgMoSDalg=",
+  "dgSpecHash": "cvkKz5uHpwM=",
   "success": true,
-  "projectFilePath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/OrdersApi/OrdersApi.csproj",
+  "projectFilePath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/OrdersApi.csproj",
   "expectedPackageFiles": [
     "/Users/martinnielsen/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
@@ -77,9 +77,22 @@
     "/Users/martinnielsen/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.ref/8.0.18/microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
-    "/Users/martinnielsen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.18/microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
-    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.18/microsoft.netcore.app.host.osx-arm64.8.0.18.nupkg.sha512"
+    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/martinnielsen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/OrdersApi.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/OrdersApi.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

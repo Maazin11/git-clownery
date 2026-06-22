@@ -4376,11 +4376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/ProductsApi/ProductsApi.csproj",
+      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/ProductsApi/ProductsApi.csproj",
       "projectName": "ProductsApi",
-      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/ProductsApi/ProductsApi.csproj",
+      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/ProductsApi/ProductsApi.csproj",
       "packagesPath": "/Users/martinnielsen/.nuget/packages/",
-      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/ProductsApi/obj/",
+      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/ProductsApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/martinnielsen/.nuget/NuGet/NuGet.Config"
@@ -4407,7 +4407,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4480,15 +4480,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -4499,8 +4499,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/martinnielsen/.dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.9.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9",
+      "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -3829,11 +3829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/OrdersApi/OrdersApi.csproj",
+      "projectUniqueName": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/OrdersApi.csproj",
       "projectName": "OrdersApi",
-      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/OrdersApi/OrdersApi.csproj",
+      "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/OrdersApi.csproj",
       "packagesPath": "/Users/martinnielsen/.nuget/packages/",
-      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/OrdersApi/obj/",
+      "outputPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/OrdersApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/martinnielsen/.nuget/NuGet/NuGet.Config"
@@ -3848,17 +3848,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Contracts/Contracts.csproj": {
-              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Contracts/Contracts.csproj"
+            "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Contracts/Contracts.csproj": {
+              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Contracts/Contracts.csproj"
             },
-            "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Data/Orders.Data.csproj": {
-              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Data/Orders.Data.csproj"
+            "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Data/Orders.Data.csproj": {
+              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Data/Orders.Data.csproj"
             },
-            "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Domain/Orders.Domain.csproj": {
-              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Domain/Orders.Domain.csproj"
+            "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Domain/Orders.Domain.csproj": {
+              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Domain/Orders.Domain.csproj"
             },
-            "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Service/Orders.Service.csproj": {
-              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Service/Orders.Service.csproj"
+            "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Service/Orders.Service.csproj": {
+              "projectPath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Service/Orders.Service.csproj"
             }
           }
         }
@@ -3873,7 +3873,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -3906,15 +3906,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.22, 8.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -3925,8 +3925,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/martinnielsen/.dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
