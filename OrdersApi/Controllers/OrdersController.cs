@@ -83,7 +83,7 @@ namespace OrdersApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            var orders = await _orderService.GetOrdersAsync();
+            IEnumerable<Order> orders = await _orderService.GetOrdersAsync();
             return Ok(orders);
         }
 
