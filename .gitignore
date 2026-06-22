@@ -1,0 +1,24 @@
+# .NET build output
+bin/
+obj/
+
+# Rider / IntelliJ
+.idea/
+
+# Visual Studio
+.vs/
+
+# User files
+*.user
+*.suo
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
