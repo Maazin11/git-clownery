@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Ae0p2DhQ8I=",
+  "dgSpecHash": "+VOugDfAdvg=",
   "success": true,
-  "projectFilePath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Orders.Data/Orders.Data.csproj",
+  "projectFilePath": "/Users/martinnielsen/Desktop/notes/projects/other/git-clownery/Orders.Data/Orders.Data.csproj",
   "expectedPackageFiles": [
     "/Users/martinnielsen/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
@@ -59,8 +59,8 @@
     "/Users/martinnielsen/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/martinnielsen/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.ref/8.0.18/microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
-    "/Users/martinnielsen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.18/microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512"
+    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/martinnielsen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }
