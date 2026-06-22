@@ -64,7 +64,7 @@ namespace OrdersApi.Controllers
 
             try
             {
-                Console.WriteLine("We don't do that no more");
+                Console.WriteLine("We don't do that no more :)");
             }
             catch
             {
