@@ -91,7 +91,7 @@ namespace OrdersApi.Controllers
 
 
 
-        // DELETE: api/Orders/5
+        // DELETE: api/Orders/2
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
