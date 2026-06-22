@@ -34,8 +34,8 @@ namespace OrdersApi.Controllers
             //var stocks = await productStockServiceClient.GetStock(
             //    model.OrderItems.Select(p => p.ProductId).ToList());
 
-            var orderToAdd = mapper.Map<Order>(model);
-            var createdOrder = await _orderService.AddOrderAsync(orderToAdd);
+            Order? orderToAdd = mapper.Map<Order>(model);
+            Order createdOrder = await _orderService.AddOrderAsync(orderToAdd);
             return CreatedAtAction("GetOrder", new { id = createdOrder.Id }, createdOrder);
         }
 
