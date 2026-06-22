@@ -72,10 +72,8 @@ namespace OrdersApi.Controllers
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
+
+                throw;
             }
 
             return NoContent();
