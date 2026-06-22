@@ -28,11 +28,6 @@ namespace OrdersApi.Services
             return await _orderRepository.AddOrderAsync(order);
         }
 
-        public async Task<Order> UpdateOrderAsync(Order order)
-        {
-            return await _orderRepository.UpdateOrderAsync(order);
-        }
-
         public async Task DeleteOrderAsync(int id)
         {
             await _orderRepository.DeleteOrderAsync(id);

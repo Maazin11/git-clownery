@@ -8,7 +8,6 @@ namespace Orders.Service
         Task DeleteOrderAsync(int id);
         Task<Order> GetOrderAsync(int id);
         Task<IEnumerable<Order>> GetOrdersAsync();
-        Task<Order> UpdateOrderAsync(Order order);
         Task<bool> OrderExistsAsync(int id);
     }
 }

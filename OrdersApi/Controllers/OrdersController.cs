@@ -64,7 +64,7 @@ namespace OrdersApi.Controllers
 
             try
             {
-                await _orderService.UpdateOrderAsync(order);
+                Console.WriteLine("We don't do that no more");
             }
             catch
             {

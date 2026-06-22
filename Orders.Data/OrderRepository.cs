@@ -36,13 +36,6 @@ namespace Orders.Data
             return order;
         }
 
-        public async Task<Order> UpdateOrderAsync(Order order)
-        {
-            _context.Entry(order).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return order;
-        }
-
         public async Task DeleteOrderAsync(int id)
         {
             var order = await _context.Orders.FindAsync(id);
