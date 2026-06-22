@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4oHZujw/Sqs=",
+  "success": true,
+  "projectFilePath": "/Users/martinnielsen/Desktop/notes/projects/other/masstransit-start-project/Messaging/Products.Service/Products.Service.csproj",
+  "expectedPackageFiles": [
+    "/Users/martinnielsen/.nuget/packages/microsoft.netcore.app.ref/8.0.18/microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "/Users/martinnielsen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.18/microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
